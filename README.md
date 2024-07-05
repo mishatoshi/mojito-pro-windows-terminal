@@ -47,7 +47,7 @@ Example:
 
 1. **PSReadLine 2.0** or later. It's installed by default in Windows 10/11, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading). You can verify your **PSReadLine** version by running `(Get-Module PSReadLine).Version.Major`.
 1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the **ColorTool** release and extract the zip file.
-1. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/master/ColorTool%20Schemes/mojito-pro.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
+1. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/ColorTool%20Schemes/mojito-pro.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
 
 1. Open **PowerShell**, navigate to the **ColorTool** directory and run:
 
