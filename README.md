@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/mishatoshi/mojito-windows-terminal/assets/110047849/5c305560-da2b-443f-9561-3e8318a73548">
+  <img src="https://github.com/mishatoshi/mojito-pro-windows-terminal/assets/110047849/15ed70fb-3545-4289-a4e2-f5ee08de876d">
 </div>
 
 ## Getting started
