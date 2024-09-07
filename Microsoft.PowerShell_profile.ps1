@@ -4,24 +4,24 @@ $PSReadLineOptions = @{
     HistoryNoDuplicates = $true
     HistorySearchCursorMovesToEnd = $true
     Colors = @{
-        "Command" = "#3DA2F5"
+        "Command" = "#FFAD33"
         "Number" = "#F5493D"
         "String" = "#FFEB33"
         "Member" = "#33E7FF"
         "Operator" = "#57DB5D"
-        "Type" = "#ED457D"
-        "Variable" = "#DB57C3"
-        "Parameter" = "#009969"
-        "ContinuationPrompt" = "#CCFFEF"
-        "Comment" = "#009969"
-        "Default" = "#CCFFEF"
+        "Type" = "#FF6333"
+        "Variable" = "#3DA2F5"
+        "Parameter" = "#1D7C3B"
+        "ContinuationPrompt" = "#D5F6E1"
+        "Comment" = "#1D7C3B"
+        "Default" = "#D5F6E1"
         "Error" = "#DA190B"
         "Keyword" = "#57DB5D"
-        "Selection" = "#B4C41C"
+        "Selection" = "#0D8BF2"
         "ListPrediction" = "#57DB5D"
-        "InlinePrediction" = "#009969"
+        "InlinePrediction" = "#1D7C3B"
         "ListPredictionSelected" = "#B4C41C"
-        "ListPredictionTooltip" = "#009969"
+        "ListPredictionTooltip" = "#1D7C3B"
     }
 }
 Set-PSReadLineOption @PSReadLineOptions
