@@ -1,5 +1,13 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v2.0.1
+
+### Patch Changes
+
+- Changing the color for Number in ps1
+
+___
+
 ## v2.0.0
 
 ### Major Changes
