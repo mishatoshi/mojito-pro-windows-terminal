@@ -5,7 +5,13 @@
 </div>
 
 <div align="center">
+  <h2>Mojito Pro</h2>
   <img src="https://github.com/user-attachments/assets/a11469db-28eb-4e87-9ffd-035b8787b60f">
+</div>
+
+<div align="center">
+  <h2>Mojito Pro Dark</h2>
+  <img src="https://github.com/user-attachments/assets/6960273f-885b-41ce-8b37-031b8afe842d">
 </div>
 
 ## Getting started
@@ -19,7 +25,7 @@
 
 Start **Windows Terminal** and click on the down arrow symbol `˅` from menu bar. This will open a drop down menu from which select **Settings** option. Alternatively use `Ctrl + ,` to open **Settings** directly.
 
-In the `settings.json` settings file for **Windows Terminal**, find the `schemes` section and paste the content of [Mojito Pro](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/master/mojito-pro.json)
+In the `settings.json` settings file for **Windows Terminal**, find the `schemes` section and paste the content of [Mojito Pro](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/main/Terminal%20Themes/mojito-pro.json) or [Mojito Pro Dark](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/main/Terminal%20Themes/mojito-pro-dark.json)
 
 Example:
 
@@ -38,7 +44,7 @@ Example:
 ```json
 "profiles": {
     "defaults": {
-        "colorScheme": "Mojito Pro"
+        "colorScheme": "Mojito Pro" // or Mojito Pro Dark
     }
 }
 ```
@@ -47,17 +53,24 @@ Example:
 
 1. **PSReadLine 2.0** or later. It's installed by default in Windows 10/11, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading). You can verify your **PSReadLine** version by running `(Get-Module PSReadLine).Version.Major`.
 1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the **ColorTool** release and extract the zip file.
-1. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/ColorTool%20Schemes/mojito-pro.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
+1. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/ColorTool%20Schemes/mojito-pro.ini) (Download raw file) or [Mojito Pro Dark](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/ColorTool%20Schemes/mojito-pro-dark.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
 
 1. Open **PowerShell**, navigate to the **ColorTool** directory and run:
+    * **Mojito Pro**
 
-    ```PowerShell
-    ./ColorTool -b ./schemes/mojito-pro.ini
+    ``` PowerShell
+       ./ColorTool -b ./schemes/mojito-pro.ini
     ```
 
-1. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your **PowerShell** `$PROFILE` file.
+    * **Mojito Pro Dark**
 
-1. Right-click on the window titlebar and choose **Properties**, click **OK** to save.
+    ``` PowerShell
+       ./ColorTool -b ./schemes/mojito-pro-dark.ini
+    ```
+
+2. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your **PowerShell** `$PROFILE` file.
+
+3. Right-click on the window titlebar and choose **Properties**, click **OK** to save.
 
 ## Installing additional features
 
