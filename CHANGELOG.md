@@ -1,11 +1,15 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
-## v3.0.1
+## v2.1.0
+
+### Minor Changes
+
+1. Changed colors for Windows Terminal: background, black.
+2. Changed colors for Powershell and CMD: DARK_BLACK.
 
 ### Patch Changes
 
-1. Changed colors in Mojito Pro Dark for Windows Terminal: foreground, white, brightBlack.
-2. Changed colors in Mojito Pro Dark for Powershell and CMD: DARK_WHITE, BRIGHT_BLACK.
+- Remove Mojito Pro Dark
 
 ___
 
