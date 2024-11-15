@@ -1,5 +1,31 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v2.4.0
+
+### Minor Changes
+
+1. Changed colors for Windows Terminal:
+    - background
+    - foreground
+    - black
+    - white
+    - brightBlack
+
+1. Changed colors for Powershell and CMD:
+    - DARK_BLACK
+    - DARK_WHITE
+    - BRIGHT_BLACK
+
+1. Changed colors for Microsoft.PowerShell_profile:
+    - Parameter
+    - ContinuationPrompt
+    - Comment
+    - Default
+    - InlinePrediction
+    - ListPredictionTooltip
+
+___
+
 ## v2.3.0
 
 ### Minor Changes
