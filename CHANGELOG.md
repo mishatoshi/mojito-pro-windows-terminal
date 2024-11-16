@@ -1,5 +1,13 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v2.4.1
+
+### Patch Changes
+
+- Reduced color saturation for the **Mojito Pro**
+
+___
+
 ## v2.4.0
 
 ### Minor Changes
