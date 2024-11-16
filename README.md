@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="./M-Logo-512.png" width="100px" height="100px">
+  <img src="./mojito-logotype-512.png" width="100px" height="100px">
   <h1>Mojito Pro for Windows Terminal, PowerShell and CMD</h1>
   <h3>Beautiful green theme for comfortable work</h3>
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/5dbb6a21-baa3-4bfd-b366-0cb9eedf6338">
+  <img src="https://github.com/user-attachments/assets/1662b6f5-aa8f-4bb4-96d7-4f4e99482294">
 </div>
 
 ## Getting started
