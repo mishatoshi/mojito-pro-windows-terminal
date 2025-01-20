@@ -1,0 +1,23 @@
+{
+  "name": "Mojito Pro",
+  "background": "#001F14",
+  "foreground": "#CCFFEF",
+  "selectionBackground": "#B4C41C",
+  "cursorColor": "#FFBF00",
+  "black": "#001F14",
+  "white": "#CCFFEF",
+  "blue": "#0B7DDA",
+  "cyan": "#00CBE6",
+  "green": "#28BD30",
+  "purple": "#BD28A2",
+  "red": "#DA190B",
+  "yellow": "#E6CF00",
+  "brightBlack": "#009969",
+  "brightWhite": "#FFFFFF",
+  "brightBlue": "#3DA2F5",
+  "brightCyan": "#33E7FF",
+  "brightGreen": "#57DB5D",
+  "brightPurple": "#DB57C3",
+  "brightRed": "#F5493D",
+  "brightYellow": "#FFEB33"
+}
