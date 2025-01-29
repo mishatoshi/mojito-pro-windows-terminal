@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./images/mojito-pro-logo.png" width="100px" height="100px">
   <h1>Mojito Pro for Windows Terminal, PowerShell and CMD</h1>
-  <h3>Beautiful green theme for comfortable work</h3>
+  <h3>"Mojito Theme – easy on the eyes, boosting productivity!" 🎨🍃</h3>
 </div>
 
 <div align="center">
