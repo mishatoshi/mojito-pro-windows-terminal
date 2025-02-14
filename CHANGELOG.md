@@ -2,6 +2,8 @@
 
 ## v1.0.1
 
+### Patch Changes
+
 - Updated the screenshot
 - Added a link to the Mojito Pro theme for Oh My Posh
 
