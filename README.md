@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./images/mojito-pro-logo.png" width="100px" height="100px">
   <h1>Mojito Pro for Windows Terminal, PowerShell and CMD</h1>
-  <h3>Mojito Theme – easy on the eyes, boosting productivity! 🎨🍃</h3>
+  <h3>🍃 Easy on the eyes, boosting productivity!</h3>
 </div>
 
 <div align="center">
@@ -61,7 +61,7 @@ Example:
 
 ## Installing additional features
 
-1. [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh). A prompt theme engine for any **shell**.
+1. [Oh My Posh](https://ohmyposh.dev). A prompt theme engine for any **shell**.
 
 1. [Terminal-Icons](https://github.com/devblackops/Terminal-Icons). A **PowerShell** module to show file and folder icons in the terminal.
 
@@ -69,6 +69,7 @@ Example:
 
 ## Other versions
 
+* Oh My Posh [https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme](https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme)
 * Visual Studio Code [https://github.com/mishatoshi/mojito-pro-vscode-theme](https://github.com/mishatoshi/mojito-pro-vscode-theme)
 * Flow Launcher [https://github.com/mishatoshi/mojito-pro-flowlauncher-theme](https://github.com/mishatoshi/mojito-pro-flowlauncher-theme)
 
