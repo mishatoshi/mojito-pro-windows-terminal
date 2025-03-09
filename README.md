@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="./images/Mojito Pro for Terminal.png">
+  <img src="./images/mojito-pro.png">
 </div>
 
 ## Getting started
