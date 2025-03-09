@@ -1,5 +1,13 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v1.0.2
+
+### Patch Changes
+
+- Updated the screenshot
+
+___
+
 ## v1.0.1
 
 ### Patch Changes
