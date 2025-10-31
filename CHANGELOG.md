@@ -1,5 +1,13 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v1.1.1
+
+### Patch Changes
+
+- Fix: blue, cyan, green, red, yellow colors
+
+___
+
 ## v1.1.0
 
 ### Minor Changes
