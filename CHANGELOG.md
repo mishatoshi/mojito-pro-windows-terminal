@@ -1,5 +1,17 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v2.0.0
+
+### Major Changes
+
+- Add: Mojito Pro Dark and Mojito Pro Night for PowerShell and Windows Terminal
+
+### Patch Changes
+
+- Fix: ContinuationPrompt color, Default color for PS profile.ps1
+
+___
+
 ## v1.1.1
 
 ### Patch Changes

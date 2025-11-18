@@ -12,16 +12,16 @@ $PSReadLineOptions = @{
         "Type" = "#FF8A65"
         "Variable" = "#D8F3E6"
         "Parameter" = "#FFC266"
-        "ContinuationPrompt" = "#BFD9CC"
-        "Comment" = "#319B66"
-        "Default" = "#BFD9CC"
+        "ContinuationPrompt" = "#D8F3E6"
+        "Comment" = "#5D6F66"
+        "Default" = "#D8F3E6"
         "Error" = "#F21C0D"
         "Keyword" = "#70DB86"
         "Selection" = "#84BF40"
         "ListPrediction" = "#70DB86"
-        "InlinePrediction" = "#319B66"
+        "InlinePrediction" = "#5D6F66"
         "ListPredictionSelected" = "#84BF40"
-        "ListPredictionTooltip" = "#319B66"
+        "ListPredictionTooltip" = "#5D6F66"
     }
 }
 Set-PSReadLineOption @PSReadLineOptions

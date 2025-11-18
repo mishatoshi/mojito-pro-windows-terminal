@@ -1,11 +1,19 @@
 <div align="center">
-  <img src="./images/mojito-pro-logo.png" width="100px" height="100px">
-  <h1>Mojito Pro for Windows Terminal, PowerShell and CMD</h1>
-  <h3>🍃 Easy on the eyes, boosting productivity!</h3>
+  <img src="./images/mojito-pro-logo-full.png" height="150px">
+  <h1>Windows Terminal, PowerShell and CMD</h1>
 </div>
 
 <div align="center">
-  <img src="./images/mojito-pro.png">
+  <h2>Mojito Pro</h2>
+  <img src="./images/MojitoPro.png">
+</div>
+<div align="center">
+  <h2>Mojito Pro Dark</h2>
+  <img src="./images/MojitoProDark.png">
+</div>
+<div align="center">
+  <h2>Mojito Pro Night</h2>
+  <img src="./images/MojitoProNight.png">
 </div>
 
 ## Getting started
@@ -19,7 +27,7 @@
 
 Start **Windows Terminal** and click on the down arrow symbol `˅` from menu bar. This will open a drop down menu from which select **Settings** option. Alternatively use `Ctrl + ,` to open **Settings** directly.
 
-In the `settings.json` settings file for **Windows Terminal**, find the `schemes` section and paste the content of [Mojito Pro](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/master/mojito-pro.json)
+In the `settings.json` settings file for **Windows Terminal**, find the `schemes` section and paste the content of [Mojito Pro](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/master/WindowsTerminal/mojito-pro.json) or [Mojito Pro Dark](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/master/WindowsTerminal/mojito-pro-dark.json) or [Mojito Pro Night](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/master/WindowsTerminal/mojito-pro-night.json)
 
 Example:
 
@@ -38,6 +46,7 @@ Example:
 ```json
 "profiles": {
     "defaults": {
+      // Mojito Pro Dark or Mojito Pro Night
         "colorScheme": "Mojito Pro"
     }
 }
@@ -47,15 +56,29 @@ Example:
 
 1. **PSReadLine 2.0** or later. It's installed by default in Windows 10/11, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading). You can verify your **PSReadLine** version by running `(Get-Module PSReadLine).Version.Major`.
 1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the **ColorTool** release and extract the zip file.
-1. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/master/ColorTool%20Schemes/mojito-pro.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
+1. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/master/PowerShell/mojito-pro.ini) or [Mojito Pro Dark](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/master/PowerShell/mojito-pro-dark.ini) or [Mojito Pro Night](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/master/PowerShell/mojito-pro-night.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
 
 1. Open **PowerShell**, navigate to the **ColorTool** directory and run:
+
+    - Mojito Pro
 
     ```PowerShell
     ./ColorTool -b ./schemes/mojito-pro.ini
     ```
 
-1. Include this [powershell configuration](./Microsoft.PowerShell_profile.ps1) in your **PowerShell** `$PROFILE` file.
+    - Mojito Pro Dark
+
+    ```PowerShell
+    ./ColorTool -b ./schemes/mojito-pro-dark.ini
+    ```
+
+    - Mojito Pro Night
+
+    ```PowerShell
+    ./ColorTool -b ./schemes/mojito-pro-night.ini
+    ```
+
+1. Include this powershell configuration for [Mojito Pro](./PS_profile/MojitoPro/Microsoft.PowerShell_profile.ps1) or [Mojito Pro Dark](./PS_profile/MojitoProDark/Microsoft.PowerShell_profile.ps1) or [Mojito Pro Night](./PS_profile/MojitoProNight/Microsoft.PowerShell_profile.ps1) in your **PowerShell** `$PROFILE` file.
 
 1. Right-click on the window titlebar and choose **Properties**, click **OK** to save.
 
@@ -69,9 +92,9 @@ Example:
 
 ## Other versions
 
-* Oh My Posh [https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme](https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme)
-* Visual Studio Code [https://github.com/mishatoshi/mojito-pro-vscode-theme](https://github.com/mishatoshi/mojito-pro-vscode-theme)
-* Flow Launcher [https://github.com/mishatoshi/mojito-pro-flowlauncher-theme](https://github.com/mishatoshi/mojito-pro-flowlauncher-theme)
+- Oh My Posh [https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme](https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme)
+- Visual Studio Code [https://github.com/mishatoshi/mojito-pro-vscode-theme](https://github.com/mishatoshi/mojito-pro-vscode-theme)
+- Flow Launcher [https://github.com/mishatoshi/mojito-pro-flowlauncher-theme](https://github.com/mishatoshi/mojito-pro-flowlauncher-theme)
 
 ## License
 
