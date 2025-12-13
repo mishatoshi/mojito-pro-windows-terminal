@@ -1,6 +1,6 @@
 <div align="center">
   <img src="./images/MojitoPro-LogoBig.png" height="150px">
-  <h1>Windows Terminal, PowerShell and CMD</h1>
+  <h1>for Windows Terminal, PowerShell and CMD</h1>
 </div>
 
 <div align="center">
