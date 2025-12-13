@@ -1,5 +1,13 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v3.0.0
+
+### Major Changes
+
+- Add: New color palette
+- Add: New syntax highlighting colors
+- Update: Mojito Pro and Mojito Pro Dark
+
 ## v2.0.0
 
 ### Major Changes
