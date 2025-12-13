@@ -1,19 +1,15 @@
 <div align="center">
-  <img src="./images/mojito-pro-logo-full.png" height="150px">
+  <img src="./images/MojitoPro-LogoBig.png" height="150px">
   <h1>Windows Terminal, PowerShell and CMD</h1>
 </div>
 
 <div align="center">
   <h2>Mojito Pro</h2>
-  <img src="./images/MojitoPro.png">
+  <img src="./images/mojito-pro.png">
 </div>
 <div align="center">
   <h2>Mojito Pro Dark</h2>
-  <img src="./images/MojitoProDark.png">
-</div>
-<div align="center">
-  <h2>Mojito Pro Night</h2>
-  <img src="./images/MojitoProNight.png">
+  <img src="./images/mojito-pro-dark.png">
 </div>
 
 ## Getting started
@@ -27,7 +23,7 @@
 
 Start **Windows Terminal** and click on the down arrow symbol `˅` from menu bar. This will open a drop down menu from which select **Settings** option. Alternatively use `Ctrl + ,` to open **Settings** directly.
 
-In the `settings.json` settings file for **Windows Terminal**, find the `schemes` section and paste the content of [Mojito Pro](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/refs/heads/main/WindowsTerminal/mojito-pro.json) or [Mojito Pro Dark](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/refs/heads/main/WindowsTerminal/mojito-pro-dark.json) or [Mojito Pro Night](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/refs/heads/main/WindowsTerminal/mojito-pro-night.json)
+In the `settings.json` settings file for **Windows Terminal**, find the `schemes` section and paste the content of [Mojito Pro](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/refs/heads/main/WindowsTerminal/mojito-pro.json) or [Mojito Pro Dark](https://raw.githubusercontent.com/mishatoshi/mojito-pro-windows-terminal/refs/heads/main/WindowsTerminal/mojito-pro-dark.json)
 
 Example:
 
@@ -46,8 +42,7 @@ Example:
 ```json
 "profiles": {
     "defaults": {
-      // Mojito Pro Dark or Mojito Pro Night
-        "colorScheme": "Mojito Pro"
+        "colorScheme": "Mojito Pro" // or Mojito Pro Dark
     }
 }
 ```
@@ -56,7 +51,7 @@ Example:
 
 1. **PSReadLine 2.0** or later. It's installed by default in Windows 10/11, but you'll most likely [need to upgrade it](https://github.com/lzybkr/PSReadLine#user-content-upgrading). You can verify your **PSReadLine** version by running `(Get-Module PSReadLine).Version.Major`.
 1. Go to [microsoft/terminal ColorTool](https://github.com/Microsoft/Terminal/tree/main/src/tools/ColorTool#installing). Download the **ColorTool** release and extract the zip file.
-2. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/PowerShell/mojito-pro.ini) ()or [Mojito Pro Dark](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/PowerShell/mojito-pro-dark.ini) or [Mojito Pro Night](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/PowerShell/mojito-pro-night.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
+2. Download [Mojito Pro](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/PowerShell/mojito-pro.ini) ()or [Mojito Pro Dark](https://github.com/mishatoshi/mojito-pro-windows-terminal/blob/main/PowerShell/mojito-pro-dark.ini) (Download raw file) and paste to the unzipped `ColorTool/schemes` directory.
 
 3. Open **PowerShell**, navigate to the **ColorTool** directory and run:
 
@@ -72,13 +67,7 @@ Example:
     ./ColorTool -b ./schemes/mojito-pro-dark.ini
     ```
 
-    - Mojito Pro Night
-
-    ```PowerShell
-    ./ColorTool -b ./schemes/mojito-pro-night.ini
-    ```
-
-4. Include this powershell configuration for [Mojito Pro](./PS_profile/MojitoPro/Microsoft.PowerShell_profile.ps1) or [Mojito Pro Dark](./PS_profile/MojitoProDark/Microsoft.PowerShell_profile.ps1) or [Mojito Pro Night](./PS_profile/MojitoProNight/Microsoft.PowerShell_profile.ps1) in your **PowerShell** `$PROFILE` file.
+4. Include this powershell configuration for [Mojito Pro](./PS_profile/MojitoPro/Microsoft.PowerShell_profile.ps1) or [Mojito Pro Dark](./PS_profile/MojitoProDark/Microsoft.PowerShell_profile.ps1) in your **PowerShell** `$PROFILE` file.
 
 5. Right-click on the window titlebar and choose **Properties**, click **OK** to save.
 
@@ -99,5 +88,3 @@ Example:
 ## License
 
 [MIT License](./LICENSE)
-
-<h3 align="center">Don’t worry, be happy😍</h3>
