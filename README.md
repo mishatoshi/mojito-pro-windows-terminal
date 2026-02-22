@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/MojitoPro-LogoBig.png" height="150px">
+  <img src="./images/mojito-pro-large.png" height="150px">
   <h1>for Windows Terminal, PowerShell and CMD</h1>
 </div>
 
@@ -83,7 +83,6 @@ Example:
 
 - Oh My Posh [https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme](https://github.com/mishatoshi/mojito-pro-oh-my-posh-theme)
 - Visual Studio Code [https://github.com/mishatoshi/mojito-pro-vscode-theme](https://github.com/mishatoshi/mojito-pro-vscode-theme)
-- Flow Launcher [https://github.com/mishatoshi/mojito-pro-flowlauncher-theme](https://github.com/mishatoshi/mojito-pro-flowlauncher-theme)
 
 ## License
 
