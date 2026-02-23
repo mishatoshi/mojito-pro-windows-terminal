@@ -5,11 +5,11 @@
 
 <div align="center">
   <h2>Mojito Pro</h2>
-  <img src="./images/mojito-pro.png">
+  <img src="./images/MojitoPro.png">
 </div>
 <div align="center">
   <h2>Mojito Pro Dark</h2>
-  <img src="./images/mojito-pro-dark.png">
+  <img src="./images/MojitoProDark.png">
 </div>
 
 ## Getting started
