@@ -1,5 +1,14 @@
 # Mojito Pro for Windows Terminal, PowerShell and CMD
 
+## v3.1.0
+
+### Minor Changes
+
+- Update: The colors have been updated for the **Mojito Pro** and **Mojito Pro Dark** themes
+- Update: Updated colors for **PSReadLineOptions**
+
+___
+
 ## v3.0.0
 
 ### Major Changes
@@ -12,7 +21,7 @@
 
 ### Major Changes
 
-- Add: Mojito Pro Dark and Mojito Pro Night for PowerShell and Windows Terminal
+- Add: **Mojito Pro Dark** and **Mojito Pro Night** for **PowerShell** and **Windows Terminal**
 
 ### Patch Changes
 
@@ -33,7 +42,7 @@ ___
 ### Minor Changes
 
 - Updated the new color palette
-- Updated the PSReadLineOptions colors
+- Updated the **PSReadLineOptions** colors
 
 ### Patch Changes
 
@@ -54,7 +63,7 @@ ___
 ### Patch Changes
 
 - Updated the screenshot
-- Added a link to the Mojito Pro theme for Oh My Posh
+- Added a link to the **Mojito Pro** theme for **Oh My Posh**
 
 ___
 
