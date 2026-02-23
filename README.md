@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/mojito-pro-large.png" height="150px">
+  <img src="./images/m-pro-logo-big.png" height="150px">
   <h1>for Windows Terminal, PowerShell and CMD</h1>
 </div>
 
